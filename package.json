@@ -1,0 +1,24 @@
+{
+  "name": "racq-footer-v3",
+  "version": "1.0.0",
+  "description": "RACQ branded footer component for WeWeb v3",
+  "main": "src/wwElement.vue",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "author": "RACQ Solar",
+  "license": "Private",
+  "type": "ww-element",
+  "wewebPublic": "public",
+  "keywords": [
+    "weweb",
+    "component",
+    "racq",
+    "footer"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
