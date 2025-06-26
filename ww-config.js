@@ -15,56 +15,14 @@ export default {
         en: 'Background Color'
       },
       type: 'Color',
-      defaultValue: '#4b5869'
+      defaultValue: '#151b23'
     },
-    textColor: {
+    businessInfo: {
       label: {
-        en: 'Text Color'
-      },
-      type: 'Color',
-      defaultValue: '#FFE600'
-    },
-    copyrightText: {
-      label: {
-        en: 'Copyright Text'
+        en: 'Business Information'
       },
       type: 'Text',
-      defaultValue: '© 2025 RACQ. All rights reserved.'
-    },
-    showLinks: {
-      label: {
-        en: 'Show Footer Links'
-      },
-      type: 'OnOff',
-      defaultValue: true
-    },
-    links: {
-      label: {
-        en: 'Footer Links'
-      },
-      type: 'Array',
-      defaultValue: [
-        { text: 'Privacy Policy', url: '#privacy' },
-        { text: 'Terms of Service', url: '#terms' },
-        { text: 'Contact Us', url: '#contact' }
-      ],
-      options: {
-        item: {
-          type: 'Object',
-          defaultValue: { text: 'Link Text', url: '#' },
-          options: {
-            text: {
-              label: { en: 'Link Text' },
-              type: 'Text'
-            },
-            url: {
-              label: { en: 'Link URL' },
-              type: 'Text'
-            }
-          }
-        }
-      },
-      hidden: content => !content.showLinks
+      defaultValue: 'RACQ Solar, 3A / 17 Sugarmill Road Pinkenba, Brisbane, QLD 4008. GEM Energy Australia Pty Ltd, ABN 25 164 579 382, Electrical Contractor Licence 78701, trading as RACQ Solar.'
     }
   },
   
