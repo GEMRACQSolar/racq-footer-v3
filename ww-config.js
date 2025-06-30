@@ -17,6 +17,13 @@ export default {
       type: 'Color',
       defaultValue: '#151b23'
     },
+    developerInfo: {
+      label: {
+        en: 'Developer Information'
+      },
+      type: 'Text',
+      defaultValue: 'RACQ Solar Estimator developed by GEM Energy Australia Pty Ltd trading as RACQ Solar'
+    },
     businessInfo: {
       label: {
         en: 'Business Information'
